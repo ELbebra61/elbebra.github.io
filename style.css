@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+input, button {
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li span {
+    flex: 1;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.edit-input {
+    flex: 1;
+    padding: 3px;
+}
+
+.save-btn {
+    background: #00ff08;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Стили для кнопок фильтров */
+.filter-btn {
+    margin-right: 5px;
+}
